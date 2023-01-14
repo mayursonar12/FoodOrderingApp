@@ -1,0 +1,22 @@
+{
+  "name": "foodorderingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayursonar12/FoodOrderingApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayursonar12/FoodOrderingApp/issues"
+  },
+  "homepage": "https://github.com/mayursonar12/FoodOrderingApp#readme",
+  "dependencies": {
+    "parcel": "^2.8.2"
+  }
+}
