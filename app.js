@@ -8,18 +8,17 @@ import Body from "./components/Body";
 import RestaurantMenu from "./components/RestaurantMenu";
 import SearchComponent from "./components/SearchComponent";
 import { Outlet } from "react-router-dom";
-
-import Header from "./components/Header";
+import Header from "./components/Header";   
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const AppLayout = () => {
     return (
-        <>
+        <div>
             <Header/>
             <Outlet/>
             {/* <Content/> */}
             <Footer/>
-        </>
+        </div>
     )
 }
 const AppRouter  = createBrowserRouter([

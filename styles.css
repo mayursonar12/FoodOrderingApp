@@ -36,3 +36,31 @@
     background-color: black;
     color: aliceblue;
 }
+
+.shimmer-container ul {
+    display: flex;
+}
+.shimmer-container ul li{
+    width: 200px;
+    height: 300px;
+    border: 1px solid darkgray;
+    margin: 20px;
+    background-color: darkgrey;
+    list-style: none;
+}
+
+.imagecss {
+    width:250px;
+    height: 200px;
+}
+
+.restaurantList {
+    display: flex;   
+    flex-wrap: wrap;
+}
+.restaurantCard {
+    /* border: 1px solid grey; */
+    cursor: pointer;
+    width: 250px;
+    margin: 30px;
+}

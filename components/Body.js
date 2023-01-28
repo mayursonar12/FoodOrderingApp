@@ -1,9 +1,12 @@
+import RestaurantsList from "./RestaurantsList"
 
 
 const Body = () => {
     return (
         <>
-            Body component
+            {/* This body component should display all restaaurnts near me */}
+
+            <RestaurantsList/>
         </>
     )
 }
