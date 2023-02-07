@@ -17,7 +17,8 @@ const RestaurantsList = () => {
 
     // Use effect hook takes a function argument
     // it will call this function depending on the second argument of useeffect hook
-    useEffect(()=>{
+    useEffect(()=>{        
+
         console.log("RestaurantList useeffect");
 
         let rlist = [];
